@@ -1,0 +1,138 @@
+/* Body */
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: hsl(229, 23%, 23%);
+}
+
+.age {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  padding-left: 9px;
+}
+
+p {
+  text-align: center;
+}
+
+/* Card */
+.flex-container {
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: auto;
+}
+
+.card {
+  margin: auto;
+  background-color: #fff;
+  height: 380px;
+  width: 350px;
+  border-radius: 3.5%;
+  z-index: 1;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  margin-top: 12.792;
+}
+
+.card-body {
+  padding-bottom: 0;
+}
+
+.cardbodytexts {
+  position: relative;
+  bottom: 50px;
+}
+
+.card-text {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-top: 12px;
+}
+
+.card-img-top {
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+}
+
+.victor {
+  border-radius: 100%;
+  position: relative;
+  left: 35%;
+  bottom: 57px;
+  border: 5px solid #fff;
+}
+
+hr {
+  line-height: 1px;
+  color: hsl(0, 0%, 59%);
+  margin-top: 0;
+  position: relative;
+  bottom: 37px;
+  border-top: 0;
+  border-left: 0;
+}
+
+.cardfooter {
+  word-spacing: 3.5rem;
+  position: relative;
+  bottom: 20px;
+}
+
+.footerh1 {
+  margin-bottom: 8px;
+}
+
+.footerp {
+  font-size: 9px;
+  word-spacing: 4rem;
+  letter-spacing: 1.5px;
+  margin-top: 0;
+  padding-right: 15px;
+  color: hsl(227, 10%, 46%);
+}
+
+.followers {
+  position: relative;
+  left: 6px;
+}
+
+/* Background images */
+.topcircle {
+  position: absolute;
+  bottom: 39%;
+  right: 52%;
+  z-index: 0;
+}
+
+.bottomcircle {
+  position: absolute;
+  top: 51%;
+  left: 48%;
+  z-index: 0;
+}
+
+.attribution {
+  position: absolute;
+  top: 90%;
+  color: hsl(228, 45%, 44%);
+  font-size: 11px;
+  text-align: center;
+}
